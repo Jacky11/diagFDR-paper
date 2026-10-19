@@ -1,0 +1,10 @@
+suppressPackageStartupMessages(library(diagFDR))
+u <- readRDS("../real_data/out/universes.rds")
+set_tp <- function(x) { m <- attr(x, "meta"); m$two_pass <- TRUE; attr(x, "meta") <- m; x }
+xs <- list(global = set_tp(u$basic$global), minrun = set_tp(u$basic$minrunq), runx = set_tp(u$basic$runxprec))
+diag <- dfdr_run_all(xs, alpha_main = 0.01, compute_pseudo_pvalues = FALSE)
+h <- dfdr_summary_headline(diag)
+print(as.data.frame(h[, c("list","T_alpha","D_alpha","FDR_hat","support_index","CV_benchmark","IPE","IPE_pooled","IPE_bins","pi_D_hat","flag_IPE","flag_FDR","flag_equalchance","status")]))
+dir.create("out", showWarnings = FALSE)
+saveRDS(diag, "out/diag_basic.rds")
+dfdr_render_report(diag, out_dir = "out/report")
