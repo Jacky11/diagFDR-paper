@@ -1,0 +1,86 @@
+=== diagFDR paper preflight ===
+R 4.3.3 | diagFDR 0.2.1 | 2026-10-27 16:41:37
+
+--- 1. diagFDR ---
+  [ok]   all 72 expected exports present
+  [info] dfdr_headline(x, alpha, k_fixed, k_sqrt_mult)
+  [info] dfdr_curve_stability(x, alphas, k_fixed, k_sqrt_mult)
+  [info] dfdr_local_tail(x, alphas, win_rel, truncation)
+  [info] dfdr_elasticity(x, alphas, eps)
+  [info] dfdr_pep_reliability_tdc(x, breaks, add_decoy)
+  [info] dfdr_equal_chance_qbands(x, breaks, low_conf, min_N)
+  [info] dfdr_sumpep(x, alphas)
+  [info] diann_global_precursor(rep, q_col, pep_col, score_col, q_max_export, unit, scope, q_source, two_pass)
+  [info] diann_runxprecursor(rep, q_col, run_col, pep_col, score_col, q_max_export, id_mode, unit, scope, q_source, two_pass)
+  [info] diann_global_minrunq(rep, run_col, q_col, pep_col, score_col, q_max_export, unit, scope, q_source, two_pass)
+  [info] mokapot_competed_universe(raw, run_col, spectrum_id_col, score_col, q_col, pep_col, id_mode, unit, scope, q_source, q_max_export, q_mode)
+
+--- 2. dependencies ---
+  [ok]   arrow    0.0.1
+  [ok]   dplyr    1.1.4
+  [ok]   tibble   3.2.1
+  [ok]   purrr    1.0.2
+  [ok]   readr    2.1.5
+  [ok]   ggplot2  3.4.4
+  [ok]   rlang    1.1.3
+  [ok]   cp4p     0.3.6
+  [warn] irr not installed (only for a kappa cross-check)
+
+--- 3. data files ---
+  [ok]   DIA-NN basic           report_basic.parquet                          103.5 MB
+  [ok]   DIA-NN semi            report_semi.parquet                           105.8 MB
+  [ok]   DIA-NN entrapment      report_entrapment.parquet                      99.5 MB
+  [ok]   DIA-NN basic 1st pass  report_basic-first-pass.parquet               107.5 MB
+  [warn] DIA-NN semi 1st pass   not found (optional): /mnt/user-data/uploads/last_data/diann/Semi_Tryp_search/report_semi-first-pass.parquet
+  [ok]   FASTA target           ProteoBenchFASTA_MixedSpecies_HYE.fasta        16.7 MB
+  [ok]   FASTA contaminants     uniprot-proteome-human-contaminants.fasta      33.6 MB
+  [ok]   FASTA entrapment       uniprotkb_taxonomy_id_3702_AND_reviewed_2026_02_06.fasta      9.4 MB
+  [ok]   mokapot targets        pyro_mq.ms2rescore.mokapot.psms.txt             4.3 MB
+  [ok]   mokapot decoys         pyro_mq.ms2rescore.mokapot.decoy.psms.txt       2.1 MB
+  [ok]   MaxQuant msms.txt      msms.txt                                       46.9 MB
+
+--- 4. DIA-NN export ---
+  1,020,465 rows, 71 columns, 6 runs
+  [ok]   run          -> Run
+  [ok]   precursor    -> Precursor.Id
+  [ok]   protein      -> Protein.Group
+  [ok]   protein_ids  -> Protein.Ids
+  [ok]   q_run        -> Q.Value
+  [ok]   q_global     -> Global.Q.Value
+  [ok]   q_lib        -> Lib.Q.Value
+  [ok]   q_pg         -> PG.Q.Value
+  [ok]   q_pg_glob    -> Global.PG.Q.Value
+  [ok]   pep          -> PEP
+  [ok]   decoy        -> Decoy
+  Decoy column: class integer, 0 NA, values {0,1}
+  [warn] no CScore column: `score` stays NA
+  [ok]   q_max_export Q.Value            = 0.49999896
+  [ok]   q_max_export Global.Q.Value     = 1
+  [ok]   q_max_export PG.Q.Value         = 1
+  [ok]   q_max_export Global.PG.Q.Value  = 1
+  precursors with both labels: 1 / 290,461
+  protein groups with both labels: 10,261 / 13,750
+  [ok]   PROTEIN_LABEL_RULE = 'split' (correct for this export)
+
+--- 5. entrapment attribution ---
+  first header: >sp|A0A0A7EPL0|PIAL1_ARATH E4 SUMO-protein ligase PIAL1 OS=Arabidopsis thaliana OX=3702 GN
+  [ok]   16,418 entrapment accessions parsed
+  [ok]   25,836 rows carry >=1 entrapment accession in Protein.Group
+  [warn] Protein.Group holds bare accessions (no species tag): a string prefix such as 'ARATH' would match NOTHING. Attribution is by accession membership, which is what 05_entrapment.R does.
+
+--- 6. mokapot export ---
+  [ok]   run
+  [ok]   spectrum_id
+  [ok]   mokapot score
+  [ok]   mokapot q-value
+  [ok]   mokapot PEP
+  [ok]   is_target
+  columns: index, spectrum_id, peptide, is_target, run, calcmass, expmass, retention_time, charge, mokapot score, mokapot q-value, mokapot PEP, protein_list
+  [warn] no pre-rescoring score in the mokapot export: the 'before' universe comes from msms.txt via read_dfdr_maxquant_msms()
+
+--- 7. environment (Supplementary Note S8) ---
+  R version 4.3.3 (2024-02-29)
+  platform: x86_64-pc-linux-gnu (64-bit)
+  running:  Ubuntu 24.04.5 LTS
+  cores: 2
+

@@ -1,0 +1,4 @@
+"universe","q","T","D","decoy_ratio","n_universe"
+"all candidate PSMs","mokapot q (exported)",7987,78,0.00976586953799925,31314
+"spectrum-level winners","mokapot q (exported)",7070,43,0.00608203677510608,10568
+"spectrum-level winners","(D+1)/T recount on mokapot score",7164,70,0.00977107761027359,10568

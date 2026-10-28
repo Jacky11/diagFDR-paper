@@ -1,0 +1,15 @@
+"search","level","universe","label_rule","T_alpha","D_alpha","decoy_ratio","CV"
+"Basic","precursor","min_r(Q.Value)","any_decoy",89718,2001,0.0223032167458035,0.0223550917004948
+"Basic","precursor","min_r(Q.Value)","winning_row",89718,2001,0.0223032167458035,0.0223550917004948
+"Basic","precursor","min_r(Q.Value)","majority",89718,2001,0.0223032167458035,0.0223550917004948
+"Basic","protein","Global.PG.Q.Value","any_decoy",963,8092,8.40290758047767,0.0111166021473302
+"Basic","protein","Global.PG.Q.Value","winning_row",8991,64,0.00711822934045156,0.125
+"Basic","protein","Global.PG.Q.Value","majority",8819,236,0.0267604036738859,0.0650944554904119
+"Basic","protein","Global.PG.Q.Value","split",8991,90,0.01001001001001,0.105409255338946
+"Semi","precursor","min_r(Q.Value)","any_decoy",85711,1782,0.0207907969805509,0.0236889684839567
+"Semi","precursor","min_r(Q.Value)","winning_row",85711,1782,0.0207907969805509,0.0236889684839567
+"Semi","precursor","min_r(Q.Value)","majority",85711,1782,0.0207907969805509,0.0236889684839567
+"Semi","protein","Global.PG.Q.Value","any_decoy",1766,5974,3.38278595696489,0.0129380072707999
+"Semi","protein","Global.PG.Q.Value","winning_row",7672,68,0.00886339937434828,0.121267812518166
+"Semi","protein","Global.PG.Q.Value","majority",7462,278,0.0372554274993299,0.0599760143904067
+"Semi","protein","Global.PG.Q.Value","split",7673,77,0.01003518832269,0.113960576459638

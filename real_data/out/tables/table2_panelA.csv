@@ -1,0 +1,11 @@
+"search","universe","level","T_alpha","D_alpha","decoy_ratio","CV"
+"Basic","Global.Q.Value","precursor",83149,832,0.0100061335674512,0.0346687622640768
+"Basic","Q.Value aggregated by min_r","precursor",89718,2001,0.0223032167458035,0.0223550917004948
+"Basic","Q.Value (run x precursor)","precursor",375129,3751,0.00999922693260185,0.0163277547297068
+"Basic","Global.PG.Q.Value","protein",8991,90,0.01001001001001,0.105409255338946
+"Basic","PG.Q.Value","protein",9552,228,0.0238693467336683,0.0662266178532522
+"Semi","Global.Q.Value","precursor",78097,781,0.0100003841376749,0.0357828133482257
+"Semi","Q.Value aggregated by min_r","precursor",85711,1782,0.0207907969805509,0.0236889684839567
+"Semi","Q.Value (run x precursor)","precursor",343238,3432,0.00999889289647417,0.017069718549973
+"Semi","Global.PG.Q.Value","protein",7673,77,0.01003518832269,0.113960576459638
+"Semi","PG.Q.Value","protein",8273,199,0.0240541520609211,0.0708881205008336

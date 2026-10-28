@@ -74,6 +74,7 @@ if (!is.null(x_before)) TB[["before rescoring (Andromeda, TDC)"]] <- x_before
 TB[["mokapot q-value (exported, all candidates)"]] <- x_mok
 TB[["after rescoring (mokapot score, TDC)"]] <- x_after
 N <- names(TB)
+saveRDS(TB, file.path(OUT, "msrescore_universes.rds"))   # reused by ../figures/make_figures.R
 
 ## --- headline, stability, local support -------------------------------
 res <- do.call(rbind, lapply(N, function(n) {

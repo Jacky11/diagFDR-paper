@@ -1,0 +1,2 @@
+"qmax_export","low_lo","low_hi","N_test","N_D_test","pi_D_hat","effect_abs","ci95_lo","ci95_hi","p_value_binom","pass_minN"
+1,0.2,0.5,1624,733,0.451354679802956,0.0486453201970443,0.427295295483534,0.475643655270021,9.66971156470188e-05,FALSE

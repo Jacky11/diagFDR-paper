@@ -1,0 +1,31 @@
+"construction","alpha","T_alpha","D_alpha","decoy_ratio","CV","D_win","truncated"
+"before rescoring (Andromeda, TDC)",1e-04,0,0,NA,Inf,0,FALSE
+"before rescoring (Andromeda, TDC)",5e-04,2139,0,0,Inf,0,FALSE
+"before rescoring (Andromeda, TDC)",0.001,3084,2,0.000648508430609598,0.707106781186547,0,FALSE
+"before rescoring (Andromeda, TDC)",0.002,4213,7,0.00166152385473534,0.377964473009227,2,FALSE
+"before rescoring (Andromeda, TDC)",0.005,4838,23,0.00475403059115337,0.208514414057075,6,FALSE
+"before rescoring (Andromeda, TDC)",0.01,5481,53,0.00966976829045795,0.137360563948689,12,FALSE
+"before rescoring (Andromeda, TDC)",0.02,5990,118,0.0196994991652755,0.0920574617898323,28,FALSE
+"before rescoring (Andromeda, TDC)",0.05,6764,337,0.0498225901833235,0.0544734710702843,80,FALSE
+"before rescoring (Andromeda, TDC)",0.1,7625,761,0.0998032786885246,0.0362499716797207,185,FALSE
+"before rescoring (Andromeda, TDC)",0.2,9102,1819,0.199846187651066,0.023446803861612,527,FALSE
+"mokapot q-value (exported, all candidates)",1e-04,0,0,NA,Inf,0,FALSE
+"mokapot q-value (exported, all candidates)",5e-04,5958,2,0.000335683115139308,0.707106781186547,0,FALSE
+"mokapot q-value (exported, all candidates)",0.001,6649,5,0.000751992780869304,0.447213595499958,0,FALSE
+"mokapot q-value (exported, all candidates)",0.002,6801,9,0.00132333480370534,0.333333333333333,1,FALSE
+"mokapot q-value (exported, all candidates)",0.005,6981,19,0.00272167311273457,0.229415733870562,7,FALSE
+"mokapot q-value (exported, all candidates)",0.01,7070,43,0.00608203677510608,0.152498570332605,10,FALSE
+"mokapot q-value (exported, all candidates)",0.02,7204,87,0.0120766240977235,0.107211253483779,18,FALSE
+"mokapot q-value (exported, all candidates)",0.05,7374,189,0.0256305939788446,0.0727392967453308,34,FALSE
+"mokapot q-value (exported, all candidates)",0.1,7574,352,0.0464747821494587,0.0533001790889026,61,FALSE
+"mokapot q-value (exported, all candidates)",0.2,7884,614,0.0778792491121258,0.0403567156135631,104,FALSE
+"after rescoring (mokapot score, TDC)",1e-04,0,0,NA,Inf,0,FALSE
+"after rescoring (mokapot score, TDC)",5e-04,6013,2,0.000332612672542824,0.707106781186547,0,FALSE
+"after rescoring (mokapot score, TDC)",0.001,6680,5,0.000748502994011976,0.447213595499958,2,FALSE
+"after rescoring (mokapot score, TDC)",0.002,6871,12,0.0017464706738466,0.288675134594813,3,FALSE
+"after rescoring (mokapot score, TDC)",0.005,7046,34,0.00482543286971331,0.171498585142509,7,FALSE
+"after rescoring (mokapot score, TDC)",0.01,7164,70,0.00977107761027359,0.119522860933439,15,FALSE
+"after rescoring (mokapot score, TDC)",0.02,7316,145,0.0198195735374522,0.08304547985374,30,FALSE
+"after rescoring (mokapot score, TDC)",0.05,7610,379,0.0498028909329829,0.0513665496937514,82,FALSE
+"after rescoring (mokapot score, TDC)",0.1,8094,808,0.0998270323696565,0.0351798772365146,190,FALSE
+"after rescoring (mokapot score, TDC)",0.2,9020,1548,0.171618625277162,0.0254164283887674,0,FALSE
