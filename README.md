@@ -4,16 +4,15 @@ Code and tables behind *diagFDR: Assessing False Discovery Rate Claims in
 Proteomics with Scope, Calibration and Stability Diagnostics*.
 
 The `diagFDR` R package itself lives elsewhere: source
-<https://github.com/Jacky11/diagFDR> (version 0.1.2, used for the paper) and
+<https://github.com/Jacky11/diagFDR> (version 0.2.1, used for the paper) and
 CRAN <https://cran.r-project.org/package=diagFDR>. This repository holds the
-analyses. Install the package with
-`remotes::install_github("Jacky11/diagFDR")` until 0.1.2 is on CRAN.
+analyses. Install the package with `install.packages("diagFDR")` (>= 0.2.1).
 
 | Folder | Content | Paper |
 |---|---|---|
 | `simulations/` | ground-truth simulations (base R only) | Section 4.1, Proposition 1, Notes S1 and S6, Tables S4, S8-S10, Figure S1 |
 | `real_data/` | DIA-NN and MS2Rescore analyses | Sections 4.2-4.5, Table 3, Figures 3-5, Notes S4, S5, S8, S9, Table S6 |
-| `figures/` | Figure 2 (workflow and report) and the relabelling of Figures 3-5 | Figures 2-5 |
+| `figures/` | Figures 3-5 generated from the package (`make_figures.R`, PDF/PNG/editable PPTX) and the report captured in Figure 2B | Figures 2-5 |
 | `audit/` | audit of FDR reporting in 63 DIA articles | Section 2.2, Note S7, Tables S3 and S5, Data S1 |
 
 ## Data
