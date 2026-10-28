@@ -1,0 +1,13 @@
+"search","list","T","D","ratio"
+"Basic","Global list (Global.Q.Value)
+(correct experiment-wide scope)",83149,832,0.0100061335674512
+"Basic","Run×precursor list (Q.Value)
+(correct run-wise scope)",375129,3751,0.00999922693260185
+"Basic","Global precursor list
+from Q.Value (min-q over runs)",89718,2001,0.0223032167458035
+"Semi-tryptic","Global list (Global.Q.Value)
+(correct experiment-wide scope)",78097,781,0.0100003841376749
+"Semi-tryptic","Run×precursor list (Q.Value)
+(correct run-wise scope)",343238,3432,0.00999889289647417
+"Semi-tryptic","Global precursor list
+from Q.Value (min-q over runs)",85711,1782,0.0207907969805509

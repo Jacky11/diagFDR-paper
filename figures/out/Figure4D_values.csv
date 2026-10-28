@@ -1,0 +1,78 @@
+"list","search","pass","pep","ehat","n","n_capped"
+"global list","Basic","Second pass",0.00395329547755079,0.010115382316016,84481,2000
+"global list","Basic","Second pass",0.0796015001286863,0.195827019466138,10259,2000
+"global list","Basic","Second pass",0.12420114363704,0.273688332028191,3253,2000
+"global list","Basic","Second pass",0.169795859633141,0.371805441055235,3328,2000
+"global list","Basic","Second pass",0.218237806027397,0.456164383561644,5315,2000
+"global list","Basic","Second pass",0.275105070609195,0.552011494252874,5401,2000
+"global list","Basic","Second pass",0.328341552202797,0.754545454545455,5018,2000
+"global list","Basic","Second pass",0.379080863263641,0.696073431922488,3326,2000
+"global list","Basic","Second pass",0.427630206059603,0.870860927152318,565,565
+"global list","Basic","Second pass",0.999177433351544,1,169362,2000
+"global list","Semi-tryptic","Second pass",0.00573728123864624,0.0174917373614442,85277,2000
+"global list","Semi-tryptic","Second pass",0.073562895329262,0.188714949251677,6910,2000
+"global list","Semi-tryptic","Second pass",0.130040841465983,0.322227399813607,5675,2000
+"global list","Semi-tryptic","Second pass",0.18128504763178,0.431627196333079,3748,2000
+"global list","Semi-tryptic","Second pass",0.225508711617551,0.506876227897839,4602,2000
+"global list","Semi-tryptic","Second pass",0.26793412052705,0.577244841048522,5656,2000
+"global list","Semi-tryptic","Second pass",0.325237430551633,0.61738746690203,3665,2000
+"global list","Semi-tryptic","Second pass",0.358640036893204,0.87378640776699,386,386
+"global list","Semi-tryptic","Second pass",0.999170522723271,1,149078,2000
+"global list","Basic","First pass",0.00331826345818281,0.0110988167283895,89551,2000
+"global list","Basic","First pass",0.0678566178880959,0.204396231801313,4219,2000
+"global list","Basic","First pass",0.123189680468129,0.333333333333333,4560,2000
+"global list","Basic","First pass",0.165459387688551,0.411828540423223,2602,2000
+"global list","Basic","First pass",0.222242332512195,0.546341463414634,3804,2000
+"global list","Basic","First pass",0.277488599702564,0.594871794871795,1555,1555
+"global list","Basic","First pass",0.320814825410498,0.702557200538358,2530,2000
+"global list","Basic","First pass",0.372437731209947,0.707317073170732,3570,2000
+"global list","Basic","First pass",0.426729195719921,0.96646942800789,1994,1994
+"global list","Basic","First pass",0.471257575396825,0.894736842105263,2268,2000
+"global list","Basic","First pass",0.519224951484624,1,1912,1912
+"global list","Basic","First pass",0.580309644488855,0.987701767870869,5172,2000
+"global list","Basic","First pass",0.62255501502907,1,2099,2000
+"global list","Basic","First pass",0.666330516449184,0.978670012547051,1577,1577
+"global list","Basic","First pass",0.729404297573965,1,740,740
+"global list","Basic","First pass",0.823700211653543,1,270,270
+"global list","Basic","First pass",0.867102025090909,1,255,255
+"global list","Basic","First pass",0.999213954061465,1,331606,2000
+"global list","Semi-tryptic","First pass",0.00317099078966191,0.010244331888913,88359,2000
+"global list","Semi-tryptic","First pass",0.0726693675460317,0.21010101010101,4193,2000
+"global list","Semi-tryptic","First pass",0.123223275133995,0.334987593052109,2690,2000
+"global list","Semi-tryptic","First pass",0.181084828276627,0.432692307692308,1937,1937
+"global list","Semi-tryptic","First pass",0.229420058559557,0.670360110803324,603,603
+"global list","Semi-tryptic","First pass",0.274614370787977,0.575142160844842,1939,1939
+"global list","Semi-tryptic","First pass",0.328138493864511,0.670515781370285,2170,2000
+"global list","Semi-tryptic","First pass",0.372624852309886,0.681558935361217,1769,1769
+"global list","Semi-tryptic","First pass",0.416336006590909,0.821969696969697,481,481
+"global list","Semi-tryptic","First pass",0.472191893759494,0.831645569620253,1447,1447
+"global list","Semi-tryptic","First pass",0.535054802083333,0.882352941176471,768,768
+"global list","Semi-tryptic","First pass",0.576849252105869,0.909090909090909,1659,1659
+"global list","Semi-tryptic","First pass",0.625435766540342,0.942542787286064,1589,1589
+"global list","Semi-tryptic","First pass",0.667967402482085,0.949837133550489,2993,2000
+"global list","Semi-tryptic","First pass",0.727068619200841,1,1921,1921
+"global list","Semi-tryptic","First pass",0.787574915924344,0.98352654057352,3251,2000
+"global list","Semi-tryptic","First pass",0.810264709736347,0.99623352165725,2120,2000
+"global list","Semi-tryptic","First pass",0.886617267761194,1,1364,1364
+"global list","Semi-tryptic","First pass",0.999152108671345,1,286309,2000
+"run × precursor","Basic","Second pass",0.00460294035512881,0.00460822856813698,348805,2000
+"run × precursor","Basic","Second pass",0.0801398340557582,0.0802193597755388,42350,2000
+"run × precursor","Basic","Second pass",0.125411820122961,0.125541524564476,12211,2000
+"run × precursor","Basic","Second pass",0.169161243113076,0.169217011128776,11767,2000
+"run × precursor","Basic","Second pass",0.21799529383389,0.218232608843769,17880,2000
+"run × precursor","Basic","Second pass",0.275158639202696,0.275399727539973,17788,2000
+"run × precursor","Basic","Second pass",0.328122006597013,0.328381356623949,16274,2000
+"run × precursor","Basic","Second pass",0.378379626113388,0.378984517304189,12113,2000
+"run × precursor","Basic","Second pass",0.428760185079618,0.428343949044586,1794,1794
+"run × precursor","Basic","Second pass",0.476102659212598,0.47244094488189,374,374
+"run × precursor","Basic","Second pass",0.999177815434314,1,538952,2000
+"run × precursor","Semi-tryptic","Second pass",0.00825618908728414,0.00826168605592987,336100,2000
+"run × precursor","Semi-tryptic","Second pass",0.0734984773280433,0.0735500318674315,33688,2000
+"run × precursor","Semi-tryptic","Second pass",0.128972810213729,0.129143255368265,25924,2000
+"run × precursor","Semi-tryptic","Second pass",0.180178553925126,0.180447098453529,15419,2000
+"run × precursor","Semi-tryptic","Second pass",0.224976337479043,0.225121687398594,18122,2000
+"run × precursor","Semi-tryptic","Second pass",0.268054982803271,0.26832568537475,21559,2000
+"run × precursor","Semi-tryptic","Second pass",0.325844598849469,0.326217678893566,13233,2000
+"run × precursor","Semi-tryptic","Second pass",0.358185666057906,0.358574610244989,1830,1830
+"run × precursor","Semi-tryptic","Second pass",0.432720606007752,0.426356589147287,368,368
+"run × precursor","Semi-tryptic","Second pass",0.999181749492931,1,593375,2000

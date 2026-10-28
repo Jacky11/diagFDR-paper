@@ -1,0 +1,25 @@
+"construction","alpha","Dwin"
+"Before (q from before score)",5e-04,0
+"Before (q from before score)",0.001,0
+"Before (q from before score)",0.002,2
+"Before (q from before score)",0.005,6
+"Before (q from before score)",0.01,12
+"Before (q from before score)",0.02,28
+"Before (q from before score)",0.05,80
+"Before (q from before score)",0.1,185
+"After (mokapot q-value)",5e-04,0
+"After (mokapot q-value)",0.001,0
+"After (mokapot q-value)",0.002,1
+"After (mokapot q-value)",0.005,7
+"After (mokapot q-value)",0.01,10
+"After (mokapot q-value)",0.02,18
+"After (mokapot q-value)",0.05,34
+"After (mokapot q-value)",0.1,61
+"After (q from mokapot score)",5e-04,0
+"After (q from mokapot score)",0.001,2
+"After (q from mokapot score)",0.002,3
+"After (q from mokapot score)",0.005,7
+"After (q from mokapot score)",0.01,15
+"After (q from mokapot score)",0.02,30
+"After (q from mokapot score)",0.05,82
+"After (q from mokapot score)",0.1,190

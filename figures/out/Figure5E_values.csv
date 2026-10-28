@@ -1,0 +1,19 @@
+"alpha","pair","J"
+5e-04,"Before vs After (mokapot q-value)",0.351134846461949
+0.001,"Before vs After (mokapot q-value)",0.456219128872923
+0.002,"Before vs After (mokapot q-value)",0.617892121034936
+0.005,"Before vs After (mokapot q-value)",0.707711972731146
+0.01,"Before vs After (mokapot q-value)",0.770949720670391
+0.02,"Before vs After (mokapot q-value)",0.825855720714578
+0.05,"Before vs After (mokapot q-value)",0.853170478170478
+0.1,"Before vs After (mokapot q-value)",0.857682466187401
+0.2,"Before vs After (mokapot q-value)",0.824926781646599
+5e-04,"Before vs After (q from mokapot score)",0.348387096774194
+0.001,"Before vs After (q from mokapot score)",0.454545454545455
+0.002,"Before vs After (q from mokapot score)",0.611866859623734
+0.005,"Before vs After (q from mokapot score)",0.702196564348071
+0.01,"Before vs After (q from mokapot score)",0.763633853375673
+0.02,"Before vs After (q from mokapot score)",0.817826847987074
+0.05,"Before vs After (q from mokapot score)",0.839147532665229
+0.1,"Before vs After (q from mokapot score)",0.846135831381733
+0.2,"Before vs After (q from mokapot score)",0.921061076050915

@@ -1,0 +1,28 @@
+"construction","alpha","T","si"
+"Before (q from before score)",5e-04,2139,Inf
+"Before (q from before score)",0.001,3084,0.707106781186547
+"Before (q from before score)",0.002,4213,0.377964473009227
+"Before (q from before score)",0.005,4838,0.208514414057075
+"Before (q from before score)",0.01,5481,0.137360563948689
+"Before (q from before score)",0.02,5990,0.0920574617898323
+"Before (q from before score)",0.05,6764,0.0544734710702843
+"Before (q from before score)",0.1,7625,0.0362499716797207
+"Before (q from before score)",0.2,9102,0.023446803861612
+"After (mokapot q-value)",5e-04,5958,0.707106781186547
+"After (mokapot q-value)",0.001,6649,0.447213595499958
+"After (mokapot q-value)",0.002,6801,0.333333333333333
+"After (mokapot q-value)",0.005,6981,0.229415733870562
+"After (mokapot q-value)",0.01,7070,0.152498570332605
+"After (mokapot q-value)",0.02,7204,0.107211253483779
+"After (mokapot q-value)",0.05,7374,0.0727392967453308
+"After (mokapot q-value)",0.1,7574,0.0533001790889026
+"After (mokapot q-value)",0.2,7884,0.0403567156135631
+"After (q from mokapot score)",5e-04,6013,0.707106781186547
+"After (q from mokapot score)",0.001,6680,0.447213595499958
+"After (q from mokapot score)",0.002,6871,0.288675134594813
+"After (q from mokapot score)",0.005,7046,0.171498585142509
+"After (q from mokapot score)",0.01,7164,0.119522860933439
+"After (q from mokapot score)",0.02,7316,0.08304547985374
+"After (q from mokapot score)",0.05,7610,0.0513665496937514
+"After (q from mokapot score)",0.1,8094,0.0351798772365146
+"After (q from mokapot score)",0.2,9020,0.0254164283887674
