@@ -54,6 +54,7 @@ Results go to `out/tables` and `out/figures`; `out/universes.rds` and `out/msres
 | `05c_entrapment_r_sensitivity.R` | homology and sensitivity of the size correction | Note S4 |
 | `05d_discordant_size_matched.R` | size-matched control: the min_r list is the Global.Q.Value list at a looser threshold | Section 4.2, Note S4 |
 | `05e_entrapment_package.R` | entrapment estimates (raw, combined, sample), size ratio r and discordant-set rates recomputed with `dfdr_entrapment()`, `dfdr_entrapment_size_ratio()`, `dfdr_entrapment_discordant()`; stops if any value differs from the paper | Sections 4.2, Note S4 |
+| `05f_entrapment_cluster_bootstrap.R` | protein-group cluster bootstrap for the core / added entrapment rates and the alpha = 1e-4 estimate | Note S4 |
 | `06_msrescore.R` | three q-value constructions on the same PSMs | Section 4.5, Figure 5 |
 | `06b_msrescore_overlap.R` | before/after counts on the spectrum-level winners (5,610/55 before, 7,070/43 and 7,164/70 after, at 1%) and overlap on a common spectrum key; checks every count of Section 4.5 | Section 4.5, Figure 5E, Note S8.3 |
 | `06c_mokapot_universe.R` | the universe on which mokapot's q-values are computed | Section 4.5, Note S8 |
